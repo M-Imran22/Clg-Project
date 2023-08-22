@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator-style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <p class="calculatorDisplay">0</p>
+      <p>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(1);
+
+          "
+        >
+          1
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(2);
+
+          "
+        >
+          2
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(3);
+
+          "
+        >
+          3
+        </button>
+        <button
+          class="opeartorBtn"
+          onclick="
+        updateCalculation('+');
+      "
+        >
+          +
+        </button>
+      </p>
+      <p>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(4);
+
+          "
+        >
+          4
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(5);
+
+          "
+        >
+          5
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(6);
+
+          "
+        >
+          6
+        </button>
+        <button
+          class="opeartorBtn"
+          onclick="         updateCalculation('-');
+
+          "
+        >
+          -
+        </button>
+      </p>
+      <p>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(7);
+
+          "
+        >
+          7
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(8);
+
+          "
+        >
+          8
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="         updateCalculation(9);
+
+          "
+        >
+          9
+        </button>
+        <button
+          class="opeartorBtn"
+          onclick="
+        updateCalculation('*');
+      "
+        >
+          *
+        </button>
+      </p>
+      <p>
+        <button
+          class="calculatorBtn"
+          onclick="
+        updateCalculation(0);
+      "
+        >
+          0
+        </button>
+        <button
+          class="calculatorBtn"
+          onclick="
+        updateCalculation('.');
+      "
+        >
+          .
+        </button>
+
+        <button
+          class="calculatorBtn"
+          onclick="calculation=eval(calculation);
+    textDisplay.innerHTML =calculation;
+    "
+        >
+          =
+        </button>
+        <button
+          class="opeartorBtn"
+          onclick="
+        updateCalculation('/');
+      "
+        >
+          /
+        </button>
+      </p>
+      <p>
+        <button
+          class="calculatorBtn"
+          onclick=" calculation =`${document.querySelector('.calculatorDisplay').innerHTML=0}`;
+        calculation =``;
+        "
+        >
+          AC
+        </button>
+      </p>
+      <p class="endText">Powered by M Imran</p>
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
